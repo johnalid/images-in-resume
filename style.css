@@ -1,0 +1,159 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+i{
+    padding: 10px;
+    color: yellow;
+}
+
+
+
+/* nav styling starts */
+.left-img img{
+    width: 60px;
+}
+nav, .more-details, .main, .article, .name-check, footer{
+    background-color: #7952b3;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.right a:hover{
+    background-color: yellow;
+    color: #7952b3 !important;
+    border-radius: 5px;
+
+}
+
+.left{
+    flex: 1;
+}
+
+.major-details img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    text-align: center;
+}
+
+
+/* nav styling ends */
+
+
+/* card group styling */
+.card-group img{
+    height: 200px;
+}
+
+.card-group p{
+    color: #7952b3;
+    font-weight: bolder;
+}
+
+.card-group p, h5{
+    color: #7952b3;
+    font-weight: bolder !important;
+}
+
+
+
+/* end of card group styling */
+
+/* start of main styling */
+
+.tool p{
+    background-color: #7952b3;
+    padding: 35px;
+    font-weight: bolder;
+}
+
+.tool{
+    padding: 10px;
+}
+
+
+.main-tool{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr) );
+    grid-gap:90px;
+
+}
+
+/* end of main styling */
+
+
+/* start of form styling */
+ 
+.gi a{
+    text-decoration: none;
+}
+
+.gi a:hover{
+    color: rgb(253, 15, 15)!important;
+}
+
+.gi button:hover{
+    background: rgb(253, 15, 15)!important;
+    color: #fff;
+}
+
+
+
+.panel-body #errorMessage{
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: rgb(247, 14, 14);
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+
+
+}
+
+.nav-item a:hover{
+    color: rgb(253, 15, 15)!important;
+    background-color: #fff;
+    text-decoration: underline;
+    border-radius: 6px;
+}
+
+
+/* end of form styling */
+
+@media (max-width: 768px){
+    .left img{
+        width: 40px;
+    }
+
+    .nav{
+        display: block; 
+    }
+
+    .right{
+        display: block;
+        padding: 50px;
+    }
+    
+    .left{
+        flex: 1;
+    }
+    
+    .major-details img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        text-align: center;
+    }
+}
