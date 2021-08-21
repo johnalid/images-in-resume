@@ -81,15 +81,19 @@ nav, .more-details, .main, .article, .name-check, footer{
 
 .tool{
     padding: 10px;
+    margin-top: 10px;
+
 }
 
 
 .main-tool{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr) );
-    grid-gap:90px;
+    grid-gap:20px;
+    border-radius: 10px;
 
 }
+
 
 /* end of main styling */
 
@@ -155,5 +159,11 @@ nav, .more-details, .main, .article, .name-check, footer{
         height: 200px;
         border-radius: 100px;
         text-align: center;
+    }
+
+
+
+    .main-tool{
+        display: block;
     }
 }
