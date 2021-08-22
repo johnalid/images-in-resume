@@ -668,7 +668,8 @@ overflow: hidden;
 
         
         .in form{
-            margin-right: 25px;
+            margin-right: 0 25px;
+            padding: ;
         }
 
      
