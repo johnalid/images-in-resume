@@ -4,66 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lambert Output</title>
-    <link rel="icon" href="img/hng.jpeg" type="image/gif" sizes="16x16">
+    <title>Lambert Page</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="img/hng.jpeg" type="image/gif" sizes="16x16">
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-      
+    
     <link rel="stylesheet" href="main.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
-<body class="bg-primary"  data-aos="fade-right" data-aos-duration="1000">
-    <section class="name-check mt-5" id="print"  data-aos="fade-right" data-aos-duration="1000">
-        <div class="container">
-            <div class="message-form2 text-center  p-2">
-                <div class="panel-body mt-2">
-            
-            
-                <div id="errorMessage"></div> 
-            
-                      
-                <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
-                                
-                  <div class="mb col-lg-6 col-sm-12 ">
-                    <div class="form-group p-2 text-center">
-            
-                      <label for="firstName" class="text-dark">Input Name</label>
-                     
-            
-                      <input
-                        type="text"
-                        class="form-control text-center"
-                        id="firstName"
-                        name="firstName"
-                        
-                    />
-              
-                 </div>
+<body>
+    <main>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/hng.jpeg" alt="Zuri Taining Logo" class="img-fluid">
                 </div>
-    
-                <div class="bt mt-3 text-center">
-                    <button class="btn bg-success text-white" type="submit">Click to Print Name</button>
-                </div>
-                  </div>
-            </form>
-            </div>
-            </div>
-        </div>
-        
-        
-    </section>
+
+   <!-- toggle -->
+   <div class="menu"
+   onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" data-aos="fade-left" data-aos-duration="1000">
+   <svg width="50" height="50" viewBox="0 0 100 100">
+     <path class="line line1"
+       d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+     <path class="line line2" d="M 20,50 H 80" />
+     <path class="line line3"
+       d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+   </svg>
+ </div>
+
+
+
+
+<div class="navbar-collapse">
+
+
+
+<ul class="navbar-nav">
+
+    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
+        <a class="nav-link active" href="index.html">Back To Home</a>
+      </li>
+
+</ul>
+
+</div>
+
+            </nav>
+
+        </header>
+
+
+
+    </main>
 
     
-    <script src="script.js"></script>
+  <div class="message-form2  bg-dark  p-2">
+    <h3 class="p-3  text-center text-danger">OutPut Your Name</h3>
+    <div class="panel-body mt-2">
+
+
+    <div id="errorMessage"></div> 
+
+          
+    <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
+                    
+      <div class="mb col-lg-6 col-sm-12">
+        <div class="form-group p-2">
+
+          <label for="firstName" class="text-danger">First Name</label>
+         
+
+          <input
+            type="text"
+            class="form-control"
+            id="firstName"
+            name="firstName"
+            
+          />
+          
+        </div>
+
+        <div class="bt mt-3 text-center gi">
+            <button class="btn bg-success text-white" type="submit">Click to submit</button>
+            </div>
+          </div>
+        
+      </form>
+  </div>
+  </div>
+  
     
+   
+
+
+   
+
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Animation -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({
+  duration: 3000,
+  once: false,
+});
+</script>
     
 </body>
 </html>
+
