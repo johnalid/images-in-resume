@@ -5,7 +5,7 @@ function validation(){
 
     errorMessage.style.padding = "10px";
 
-    if(name.length <2 || name ==null){
+    if(name.length <3){
         text = "please enter a valid name";
         errorMessage.innerHTML = text;
         return false;

@@ -409,34 +409,6 @@ object-fit: contain;
 text-align: center;
   }
 
-  .gi a{
-    text-decoration: none;
-}
-
-.gi a:hover{
-    color: rgb(253, 15, 15)!important;
-}
-
-.gi button:hover{
-    background: rgb(253, 15, 15)!important;
-    color: #fff;
-}
-
-
-
-.panel-body #errorMessage{
-    margin-bottom: 20px;
-    padding: 0px;
-    background-color: rgb(247, 14, 14);
-    text-align: center;
-    font-size: 14px;
-    transition: all 0.5s ease;
-
-
-}
-
-
-
 
 
 
@@ -519,7 +491,7 @@ overflow: hidden;
       }
      
       main{
-        padding: 30px 30px;
+        padding: 30px 20px;
         background-color: #fff6f6;
     }
 
@@ -622,7 +594,7 @@ overflow: hidden;
     max-width: 100%;
     border-radius: 10px;
      width: 100%;
-    padding: 40px;
+    padding: 40px 20px;
     margin: 0 auto;
     clear: both;
     
@@ -664,6 +636,11 @@ overflow: hidden;
 
         .outt{
             display: none;
+        }
+
+        
+        .in form{
+            margin-left: 50px;
         }
 
      
