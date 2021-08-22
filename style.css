@@ -90,7 +90,7 @@ nav, .more-details, .main, .article, .name-check, footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(225px, 1fr) );
     grid-gap:20px;
-    border-radius: 10px;
+    border-radius: 11px;
 
 }
 
