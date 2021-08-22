@@ -666,6 +666,10 @@ overflow: hidden;
             display: none;
         }
 
+        .right form{
+            margin-left: 20px;
+        }
+
 
      
 }
