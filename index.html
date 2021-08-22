@@ -4,81 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lambert</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Zuri Training Landing Page</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" href="img/hng.jpeg" type="image/gif" sizes="16x16">
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-  <nav class="text-white">
-      <div class="container">
-           <div class="nav">
-            <div class="left">
-                <div class="left"> <a href="https://internship.zuri.team" class="text-white text-decoration-none p-3">Zuri Internship </a></div>
+    <main>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="img/hng.jpeg" alt="Zuri Taining Logo" class="img-fluid">
+                </div>
 
-           
-            </div>
+   <!-- toggle -->
+   <div class="menu"
+   onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" data-aos="fade-left" data-aos-duration="1000">
+   <svg width="50" height="50" viewBox="0 0 100 100">
+     <path class="line line1"
+       d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+     <path class="line line2" d="M 20,50 H 80" />
+     <path class="line line3"
+       d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+   </svg>
+ </div>
 
-            <div class="left-img text-center">
-               <a href="https://hng.tech"> <img src="img/hng.jpeg" alt="hng img"></a>
-            </div>
-   
 
-           
 
-           
 
-            <div class="right p-2">
-                <a href="#about" class="text-white text-decoration-none p-3">About</a>
-                <a href="#services" class="text-white text-decoration-none p-3">Servies</a>
-                <a href="docs/no8t2-v45oa.pdf" class="text-white text-decoration-none p-3">Download CV</a>
-                <a href="#print" class="text-white text-decoration-none p-3">Output Name</a>
-            </div>
-           </div>
+<div class="navbar-collapse">
 
-           <div class="major-details text-center mt-5">
-                <img src="img/nn.jpg" alt="">
-            </div>
 
-        
 
-            <div class="major-details text-center mt-5">
-                <h1>Lambert Ohaegbulem</h1>
-            </div>
+<ul class="navbar-nav">
 
-            <div class="major-details text-center">
-                <h3>FrontEnd Developer</h3>
-            </div>
+    <li class="nav-item" data-aos="fade-right" data-aos-duration="1000">
+        <a class="nav-link active" href="index.html">Home</a>
+      </li>
 
-            <div class="major-details text-center mt-5">
-                <a href="" class="text-white text-decoration-none">To be a team player by demonstrating real involvement in my work and encouraging <br> diverse inputs from colleagues regardless of their background.</a>
-             </div>
- 
-             
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="1000">
+        <a class="nav-link" href="#about" >About</a>
+      </li>
 
-            <div class="major-details text-center mt-5">
-                   <a href="tel:+2348187362882" class="p-1"><i class="go fa fa-phone" aria-hidden="true"> +2349025887836 </i></a> 
-            </div>
+      <li class="nav-item" data-aos="fade-up" data-aos-duration="1000">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
 
-            <div class="major-details text-center">
-                <a href="" class="p-1"><i class="go fa fa-home" aria-hidden="true">6, Akinsanya street, shomolu, Lagos</i></a> 
-            </div>
-           
-            <div class="major-details text-center">
-               <a href="mailto:johnalidy05@gmail.com" class="p-1"><i class="go fa fa-envelope" aria-hidden="true">johnalidy05@gmail.com</i></a> 
-             </div>
+      <li class="nav-item" data-aos="fade-down" data-aos-duration="1000">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li> 
 
-      </div>
-  </nav>
+</ul>
 
-  
+</div>
 
-  <section class="more-details mt-5" id="about">
-    <div class="language container p-5">
-        <h2 class="languages text-center text-white">Education History </h2>
+            </nav>
+
+        </header>
+
+<section class="hero ">
+
+    <div class="major-details text-center p-5 mt-2">
+        <img src="img/nn.jpg" alt="">
+    </div>
+<div class="hero-contain">
+<div class="left text-center">
+    <h1 class="" data-aos="fade-right" data-aos-duration="1000">Lambert Ohaegbulem</h1>
+    <h2 class="text-bold" data-aos="fade-right" data-aos-duration="1000">FrontEnd Developer</h2>
+    <p data-aos="fade-right" data-aos-duration="1000">To be a team player by demonstrating real involvement in my work and encouraging <br> diverse inputs from colleagues regardless of their background.</p>
+    <div class="cta-btn">
+        <button class="btn btn-outline btn-pad" type="submit" data-aos="fade-up" data-aos-duration="1000" ><a href="docs/no8t2-v45oa.pdf" class="text-danger text-decoration-none">Download CV</a></button>
+        <button class="btn btn-pri" type="submit" data-aos="fade-down" data-aos-duration="1000"><a href="print.html" class="text-decoration-none text-dark">Output Your Name</a></button>
+    </div>
+</div>
+</div>
+<hr>
+</section>
+
+<section class="more-details mt-3" id="about">
+    <div class="language p-5">
+        <h2 class="languages text-center ">Education History </h2>
     </div>
 
-    <div class="language-card more-details">
+    <div class="language-card more-details text-center" >
         <div class="card-group">
             <div class="card">
               <img src="img/element5-digital-OyCl7Y4y0Bk-unsplash(Iq2WZFKu0Dz).jpg" class="card-img-top" alt="Elementary img">
@@ -111,7 +130,7 @@
           </div>
     </div>
 
-    <div class="cert text-white">
+    <div class="cert">
        <div> <h2 class="text-center p-2">Certificates</h2></div>
 
        <div class="p-3">
@@ -127,149 +146,188 @@
 
 </section>
 
-<section class="main mt-5" id="services">
-    <div class="container text-white p-5">
-        <h2 class="text-center">FrontEnd Development Tools Familiar With</h2>
 
-        <div class="main-tool bg-light">
-            <div class="tool text-center">
-                <p>HTML</p>
-            </div>
 
-            <div class="tool text-center">
-                <p>CSS</p>
-            </div>
 
-            <div class="tool text-center">
-                <p>Bootstrap</p>
-            </div>
 
-            <div class="tool text-center">
-                <p>React</p>
-            </div>
 
-            <div class="tool text-center">
-                <p>Javascript</p>
-            </div>
+
+
+
+
+
+
+
+        
+
+    </main>
+
+    <section class="content" id="services">
+<p class="text-center" data-aos="fade-down" data-aos-duration="1000">FrontEnd Development Tools Familiar With</p>
+
+<div class="cardds">
+
+    <!-- card 1 -->
+<div class="card-section">
+    <div class="cardd">
+        <div class="icon">
+<img src="img/download.jpg" alt="Users">
+        </div>
+        <div class="cardd-body">
+            <h4>HTML & CSS</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> ipsa vitae tempore reprehenderit quae corporis!</p>
         </div>
     </div>
-</section>
 
+       <!-- card 2 -->
 
-<section class="article mt-5">
-    <div class="container p-5 text-white">
-        <div class="art">
-            <h2 class="text-center">Skills</h2>
+       <div class="cardd">
+        <div class="icon">
+<img src="img/download (3).jpg" alt="Users">
         </div>
-
-
-        <div class="main-tool bg-light">
-            <div class="tool text-center">
-                <p>Website Maintainance</p>
-            </div>
-
-            <div class="tool text-center">
-                <p>Data <br> Analysis</p>
-            </div>
-
-            <div class="tool text-center">
-                <p>Building <br> Websites</p>
-            </div>
-
-            <div class="tool text-center">
-                <p>Leadership and Mentorship</p>
-            </div>
-
-            <div class="tool text-center">
-                <p>Microsoft <br> Office</p>
-            </div>
-
-            <div class="tool text-center">
-                <p>Problem Solving Skills</p>
-            </div>
+        <div class="cardd-body">
+            <h4>Javascript</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> ipsa vitae tempore reprehenderit quae corporis!</p>
         </div>
     </div>
+
+       <!-- card 3 -->
+
+       <div class="cardd">
+        <div class="icon">
+<img src="img/download (1).jpg" alt="Users">
+        </div>
+        <div class="cardd-body">
+            <h4>Bootstrap</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> ipsa vitae tempore reprehenderit quae corporis!</p>
+        </div>
+    </div>
+
+         <!-- card 4 -->
+
+    <div class="cardd">
+        <div class="icon">
+<img src="img/images.jpg" alt="Users">
+        </div>
+        <div class="cardd-body">
+            <h4>React</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br/> ipsa vitae tempore reprehenderit quae corporis!</p>
+        </div>
     </div>
 
 
-</section>
 
-<section class="name-check mt-5" id="print">
-    <div class="container text-white">
-        <div class="message-form2  p-2">
-            <h3 class="p-3  text-center text-white">Lets print your Name</h3>
-            <div class="panel-body mt-2">
-        
-        
-            <div id="errorMessage"></div> 
-        
-                  
-            <form action="connect.php" method="post" class="p-1 shadow" id="myForm" onsubmit="return validation()">
-                            
-              <div class="mb col-lg-6 col-sm-12 ">
-                <div class="form-group p-2 text-center">
-        
-                  <label for="firstName" class="text-white">Input Name</label>
-                 
-        
-                  <input
-                    type="text"
-                    class="form-control text-center"
-                    id="firstName"
-                    name="firstName"
-                    
-                />
-          
-             </div>
-            </div>
 
-            <div class="bt mt-3 text-center gi">
-                <button class="btn bg-success text-white" type="submit">Click to Print Name</button>
+</div>
+
+</div>
+        
+    </section>
+
+
+    <section class="contact-heading out" id="contact">
+        <p class=" text-center p-5" data-aos="fade-down" data-aos-duration="1000">Contact Form</p>
+
+        
+    <div class="hero-container">
+    <div class="left outt">
+        <p data-aos="fade-right" data-aos-duration="1000"><div class="major-details text-center">
+            <img src="img/nn.jpg" alt="">
+        </div>
+        <div class="major-details text-center p-5 mt-2">
+            <img src="img/download (1).png" alt="">
+        </div>
+    </p>
+    
+    </div>
+    
+    <div class="right mb-5 in container in">
+        <form action="" data-aos="fade-right" data-aos-duration="1000">
+            <div class="form-header">
+                <p>Contact Me For Your Next Job</p>
             </div>
-              </div>
+            <div class="user">
+                <label for="fname">First Name</label>
+                <input type="text" name="username" id="">
+            </div>
+    
+            <div class="fname">
+                <label for="lname">Last name</label>
+                <input type="text" name="fname" id="">
+            </div>
+    
+            <div class="email">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="">
+            </div>
+    
+            <div class="phone">
+                <label for="number">Number</label>
+                <input type="number" name="password" id="">
+            </div>
+    
+            <div class="submit-btn">
+               <input type="button" class="btn btn-pri btn-submit" name="sbutton" id="" value="SUBMIT">
+            </div>
+    
         </form>
-        </div>
-        </div>
     </div>
     
-</section>
+    </div>
+    
+ </section>
 
+ 
 <footer>
-  <div class="container mt-5 text-white">
-
-        <div class="">
-            <div>
-            <h5 class="text-white text-center">Connect with Me on these following Accounts</h5>
-            </div>
-           
-            <div class="main-tool text-center">
-                <div class="footer">
-                    <a href="https://web.facebook.com/officiallaj" class="p-1"><i class="go fa fa-facebook" aria-hidden="true">Facebook</i></a> 
-                </div>
+    <div class="container text-white text-center">
+  
+          <div class="">
+              <div>
+              <p class="text-center p-3 text-dark">Connect with Me on these following Accounts</p>
+              </div>
+             
+              <div class="main-tool text-center">
+                  <div class="footer">
+                      <a href="https://web.facebook.com/officiallaj" class="p-1 text-dark"><i class="go fa fa-facebook" aria-hidden="true"></i></a> 
+                  </div>
+              
+                  <div class="footer">
+                      <a href="https://github.com/johnalid" class="p-1 text-dark"><i class="go fa fa-github" aria-hidden="true"></i></a> 
+                  </div>
+      
+                  <div class="footer">
+                      <a href="mailto:johnalidy05@gmail.com" class="p-1 text-dark "><i class="go fa fa-envelope" aria-hidden="true"></i></a> 
+                  </div>
+              </div>
+  
+              <div class="footer-below text-center text-dark">
+                  <small>© Lambert Ohaegbulem CV | 2021</small>
+              </div>
+          
+          </div>
+  
+    </div>
+  
+  
+      
+  
+  </footer>
             
-                <div class="footer">
-                    <a href="https://github.com/johnalid" class="p-1"><i class="go fa fa-github" aria-hidden="true">Github</i></a> 
-                </div>
-    
-                <div class="footer">
-                    <a href="mailto:johnalidy05@gmail.com" class="p-1"><i class="go fa fa-envelope" aria-hidden="true">E-mail</i></a> 
-                </div>
-            </div>
-
-            <div class="footer-below text-center">
-                <small>© Lambert Ohaegbulem CV | 2021</small>
-            </div>
-        
-        </div>
-
-  </div>
-
-
     
 
-</footer>
+    <!-- Js Script -->
 
+    <script src="app.js"></script>
 
-<script src="script.js"></script>    
+    <!-- Animation -->
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 3000,
+    once: false,
+  });
+</script>
+    
 </body>
 </html>
